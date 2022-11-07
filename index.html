@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,34 @@
     <title>Library</title>
 </head>
 <body>
+    <div class="container">
+        <form id="library-form">
+        <h2>Save your books into this library</h2>
+            <div class="library">
+                <label for="book-author">Author
+                <input id="book-author" name=""book-author"" type="text">
+                </label>
+                <label for="book-title">Title
+                <input id="book-title" name="book-title" type="text">
+                </label>
+                <label for="book-number-of-pages">Page number
+                <input id="book-number-of-pages" name="book-number-of-pages" type="number">
+                </label>
+                <label for="read-or-not">Already read?
+                <select id="book-read-or-not" name="read-or-not">
+                    <option value="Read">Yes</option>
+                    <option value="Not Read">No</option>
+                </select>    
+                </label>
+                <button type="submit" id="add-btn">Add</button>
+            </div>
+        </form>
+        <div id="added-books" class="books">
+            
+        </div>
+
+
+    </div>
     
 </body>
 <script src="index.js"></script>

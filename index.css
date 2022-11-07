@@ -3,3 +3,97 @@
 *::after {
     box-sizing: border-box;
 }
+
+/* Typography */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #FF0099;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #493240, #FF0099);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #493240, #FF0099); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+}
+
+.container {
+    margin: 0 2em;
+    color: white;
+}
+
+.library {
+    background-color: bisque;
+    width: 100%;
+    padding: 1em;
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #240b36);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #240b36); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.book-card {
+    background: #4CA1AF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     width: 50%;
+    padding: 1em;
+    margin: 1em;
+}
+
+input {
+    margin: 0.5em 0;
+    padding: 0.3em;
+    width: 100%
+}
+
+/* Layout */
+
+.library {
+    display: grid;
+    justify-content: center
+}
+
+button {
+    align-items: center;
+}
+
+.book-card {
+    background: black;
+    width: 40%;
+    margin-left: 0;
+    padding-left: 2.5em;
+    
+}
+
+select {
+    margin: 0 0 0.5em 
+}
+
+.book-card {
+  width:65%;
+  height: 100%;
+  background: #F33139;
+  border-radius: 5px 16px 12px 5px;
+  background-image: linear-gradient(to right,#D11F2F 1px, #ba0716 20px, transparent 20px);  
+  border-right: 0.5em white inset    
+}
+
+.books {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0.5em
+    
+}
+
+button {
+    border: none;
+    padding: 0.7em 1.1em;
+    font-size: 0.7em;
+    margin: 0 .2em;
+}
+
+.read-button {
+   
+}
+
+
